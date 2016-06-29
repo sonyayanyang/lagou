@@ -1,0 +1,137 @@
+body, div, ul, li, img {
+    margin: 0;
+    padding: 0;
+    font: 14px/22px Arial,"Hiragino Sans GB","Î¢ÈíÑÅºÚ","ËÎÌå";
+    list-style: none;
+}
+#body {
+    margin: 0 auto;
+    height: auto;
+}
+#top_banner {
+    width: 100%;
+    height: 80px;
+    background: #FFFFFF url(http://hr.lagou.com/images/banners/topBannerC.jpg) center center no-repeat;
+}
+#top_banner a{
+    display: block;
+    height: 80px;
+    overflow: hidden;
+}
+a {
+    color: #555;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+#header {
+    min-width: 1024px;
+    height: 60px;
+    background: #fafafa;
+    border-top: 3px solid #00b38a;
+}
+#header .wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 90;
+}
+.logo {
+    border: 0;
+    float: left;
+    margin: 10px 0 0 0;
+    background: url(http://www.lagou.com/images/logo.png) no-repeat;
+    width: 229px;
+    height: 43px;
+}
+#navheader {
+    float: left;
+    position: relative;
+    margin-left: 30px;
+    font-size: 0;
+}
+ul.reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#navheader li.current {
+    z-index: 1;
+}
+#navheader li {
+    height: 60px;
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    padding: 0 20px;
+}
+#navheader li.current a {
+    color: #333;
+    border-bottom: 3px solid #00b38a;
+}
+#navheader li a {
+    height: 57px;
+    line-height: 57px;
+    font-size: 20px;
+    color: #999;
+    float: left;
+}
+#navYipai .beta-wrapper {
+    position: absolute;
+    left: 64px;
+    top: 10px;
+    height: 18px;
+    padding-left: 15px;
+    background: transparent url(http://hr.lagou.com/images/icon_beta_tail.png) no-repeat bottom left;
+}
+#navYipai .beta {
+    top: 0;
+    left: 3px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+}
+#navheader li b {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 100;
+    position: absolute;
+    color: #fff;
+    background: #fd470c;
+    padding: 0 5px;
+    border-radius: 9px;
+}
+#header ul.loginTop {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+}
+#header ul.loginTop a {
+    color: #fff;
+    padding: 0 12px;
+}
+#header ul.loginTop li {
+    float: left;
+    color: #fff;
+    height: 22px;
+    background: #00b38a;
+    padding: 4px 0;
+}
+#header ul.loginTop {
+    margin: 0;
+    padding: 0;
+    list-style: none;}
+#container {
+    width: 1024px;
+    margin: 35px auto 0;
+    padding-bottom: 150px;
+}
+::selection {
+    background: #00b38a;
+    color: #fff;
+}

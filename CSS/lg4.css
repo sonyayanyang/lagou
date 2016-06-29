@@ -1,0 +1,72 @@
+.da-thumbs {
+    list-style: none;
+    height: 118px;
+    position: relative;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+.da-thumbs li {
+    margin-right: 8px;
+    float: left;
+    background: #fff;
+    position: relative;
+    border: 2px solid #fafafa;
+}
+.da-thumbs li a {
+    color: #fff;
+    overflow: hidden;
+}
+.da-thumbs li a, .da-thumbs li a img {
+    display: block;
+    position: relative;
+}
+.da-thumbs li a div {
+    position: absolute;
+    background: rgba(0,179,138,0.9);
+    filter: alpha(Opacity=90);
+    width: 100%;
+    height: 100%;
+}
+.da-thumbs li a h2 {
+    font-size: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin: 10px 8px 8px 8px;
+    font-weight: normal;
+    text-align: center;
+    overflow: hidden;
+}
+.da-thumbs li a em {
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: rgba(255,255,255,0.3);
+    filter: alpha(Opacity=30);
+    margin: 0 6px;
+}
+em {
+    font-style: normal;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.da-thumbs li.last {
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

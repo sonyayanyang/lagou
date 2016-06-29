@@ -1,0 +1,190 @@
+ul.reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.hotabbing {
+    font-size: 0;
+    background: #f6f6f6;
+}
+ul.hotabbing li.current {
+    border-top: 3px solid #00b38a;
+    background: #fff;
+    color: #333;
+}
+ul.hotabbing li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 7px 20px;
+    font-size: 18px;
+    color: #999;
+}
+.position_list_item {
+    width: 744px;
+    height: 123px;
+    overflow: hidden;
+    border-bottom: 1px dashed #e1e1e1;
+}
+.pli_top {
+    height: 62px;
+    background-color: #fff;
+    padding-top: 22px;
+    padding-left: 15px;
+    overflow: hidden;
+}
+.pli_btm {
+    height: 39px;
+    background-color: #fafafa;
+}
+.pli_btm_l {
+    width: 400px;
+    height: 39px;
+    line-height: 39px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+.fl {
+    float: left!important;
+}
+
+.pli_top_l {
+    width: 400px;
+    margin-right: 20px;
+}
+.pli_top_l .position_name {
+    height: 34px;
+}
+.pli_top h2 {
+    padding: 0;
+    margin: 0;
+}
+.pli_top .position_link {
+    max-width: 256px;
+}
+.position_list_item .wordCut {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.pli_top_r {
+    width: 309px;
+}
+.pli_top_r .company_name {
+    width: 294px;
+    height: 34px;
+    color: #00b38a;
+}
+.pli_top_r .company_name a {
+    font-size: 16px;
+}
+.pli_top a {
+    color: #00b38a;
+}
+.pli_top h2 span {
+    margin-left: 6px;
+    color: #00b38a;
+}
+.pli_top_l .position_name span.fl {
+    color: #999;
+    font-size: 14px;
+    margin-left: 10px;
+}
+span.fl {
+    white-space: nowrap;
+}
+.pli_top_l span.salary {
+    font-size: 16px;
+    color: #fa6041;
+    margin-right: 20px;
+}
+.pli_top_l .salary {
+    height: 28px;
+}
+.pli_btm_r {
+    width: 309px;
+    margin-top: 8px;
+}
+.pli_btm_r span {
+    display: inline-block;
+    padding: 0 3px;
+    border: 1px solid #dcdcdc;
+    margin-right: 10px;
+}
+.fr {
+    float: right!important;
+}
+.mr25 {
+    margin-top: 25px;
+}
+.btn {
+    font-size: 16px;
+    color: #fff;
+    background: #00b38a url(../img/arrow.png) 88px center no-repeat;
+    padding: 5px 40px 5px 15px;
+    margin: 10px 0 0 0;
+}
+.clear {
+    clear: both;
+}
+#linkbox {
+    padding: 15px 0 0 0;
+    margin-top: 40px;
+    border-top: 1px solid #ececed;
+    overflow: hidden;
+}
+#linkbox dt {
+    float: left;
+    width: 70px;
+    margin-top: 2px;
+    font-size: 15px;
+}
+#linkbox dd {
+    margin-left: 70px;}
+
+#linkbox a {
+    white-space: nowrap;
+    float: left;
+    padding: 3px 9px;
+    color: #555555;
+    font-size: 12px;
+    text-decoration: none;
+    height: 15px;
+    line-height: 15px;
+    margin: 5px 0 5px -1px;
+}
+#linkbox span {
+    float: left;
+    font-size: 12px;
+    padding: 3px 0;
+    color: #999;
+}
+#linkbox a.more {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

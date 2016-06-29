@@ -1,0 +1,117 @@
+#loginToolBar {
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    background: url(../img/footerbar_repeat.png) repeat-x;
+}
+#loginToolBar div {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+#loginToolBar em {
+    width: 95px;
+    height: 54px;
+    background: url(../img/footbar_img.png) no-repeat;
+    position: absolute;
+    top: -54px;
+    left: -110px;
+}
+#loginToolBar img {
+    position: absolute;
+    left: -110px;
+    top: 10px;
+}
+#loginToolBar span.companycount {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 100;
+    color: #dafaf4;
+    display: inline-block;
+    height: 30px;
+    background: url(../img/footbar_text.png) right 16px no-repeat;
+    padding-right: 33px;
+    margin: 20px 0 0 294px;
+}
+#loginToolBar span.positioncount {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 100;
+    color: #dafaf4;
+    display: inline-block;
+    height: 30px;
+    background: url(../img/footbar_text.png) right bottom no-repeat;
+    padding-right: 33px;
+    margin: 20px 0 0 60px;
+}
+#loginToolBar span i {
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    background: url(../img/footbar_no.png) 0 0 no-repeat;
+}
+
+#loginToolBar span b {
+    display: inline-block;
+    width: 9px;
+    height: 30px;
+    background: url(../img/footbar_comma.png) center bottom no-repeat;
+}
+#loginToolBar a.bar_login {
+    height: 64px;
+    position: absolute;
+    left: 790px;
+    background: url(../img/footbar_btn_green.png) repeat-x;
+    padding: 0 46px;
+}
+#loginToolBar .right {
+    height: 64px;
+    position: absolute;
+    left: 932px;
+    top: 0;
+    background: url(../img/footbar_btn_red.png) repeat-x;
+}
+#loginToolBar a.bar_register {
+    display: inline-block;
+    height: 64px;
+    padding: 0 46px;
+}
+#loginToolBar a.bar_login i {
+    display: block;
+    width: 50px;
+    height: 64px;
+    background: url(../img/footbar_login.png) left center no-repeat;
+}
+#loginToolBar a.bar_register i {
+    display: block;
+    width: 120px;
+    height: 64px;
+    background: url(../img/footbar_register.png) left center no-repeat;
+}
+#footer {
+    clear: both;
+    height: 36px;
+    border-top: 1px solid #ebebeb;
+    line-height: 36px;
+}
+#footer .wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+#footer a {
+    padding: 0 5px;
+    color: #555;
+}
+.footer_qr {
+    position: relative;
+}
+#footer .copyright {
+    color: #999;
+    float: right;
+}
+#footer .copyright a {
+    color: #999;
+}

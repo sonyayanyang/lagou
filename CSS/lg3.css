@@ -1,0 +1,141 @@
+.content {
+    width: 744px;
+    margin: 35px auto 0;
+    padding-bottom: 150px;
+    float: right;
+}
+#search_box {
+    border: 0px solid #00b38a;
+    width: 740px;
+    height: 37px;
+    position: relative;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+#search_input {
+    width: 570px;
+    height: 23px;
+    line-height: 23px;
+    float: left;
+    font-size: 16px;
+    padding: 5px 8px 5px 10px;
+    margin: 0;
+    border: 2px solid #00b38a;
+}
+#search_button {
+    height: 37px;
+    width: 148px;
+    color: #FFF;
+    font-size: 18px;
+    border: 2px solid #00b38a;
+    background: #00b38a;
+    float: right;
+    cursor: pointer;
+}
+.hotSearch {
+    overflow: hidden;
+    margin: 6px 0 18px;
+}
+
+.hotSearch dt {
+    width: 70px;
+    font-size: 14px;
+}
+.hotSearch dt, .hotSearch dd {
+    float: left;
+}
+.hotSearch dd {
+    margin-right: 20px;
+}
+dl, dd {
+    margin: 0;
+}
+#home_banner {
+    width: 744px;
+    height: 160px;
+    position: relative;
+    margin: 0 0 18px;
+    overflow: hidden;
+}
+#home_banner .thumbs li.current i{background:0}
+#home_banner .banner_bg {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 612px;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+}
+.banner_bg li {
+    display: block;
+    width: 612px;
+    height: 160px;
+}
+img {
+    border: none;
+}
+#home_banner .banner_control {
+    float: right;
+    width: 121px;
+    height: 160px;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+#home_banner .banner_control em {
+    width: 127px;
+    height: 50px;
+    background: url(http://www.lagou.com/images/control_current.png) 0 0 no-repeat;
+    position: absolute;
+    z-index: 21;
+    top: 0;
+    left: -6px
+}
+#home_banner .thumbs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#home_banner .thumbs li.thumbs_1, #home_banner .thumbs li.thumbs_2 {
+    margin-bottom: 5px;
+}
+#home_banner .thumbs li {
+    width: 113px;
+    height: 42px;
+    border: 4px solid #d3d3d3;
+    position: relative;
+}
+
+#home_banner .thumbs li i {
+    background: url(http://www.lagou.com/images/thumb_cover.png) no-repeat;
+    width: 113px;
+    height: 42px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
